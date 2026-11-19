@@ -1,0 +1,11 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{
+:root{--bg:233 238 234;--card:246 249 246;--ink:28 38 42;--mute:94 108 110;--accent:142 58 106;--moss:70 104 94;--line:208 218 212}
+.dark{--bg:15 24 27;--card:22 34 38;--ink:232 238 234;--mute:148 164 164;--accent:222 150 196;--moss:120 170 150;--line:40 56 58}
+html{scroll-behavior:smooth}
+body{@apply bg-bg text-ink font-sans antialiased transition-colors duration-500}
+::selection{@apply bg-accent text-bg}
+:focus-visible{@apply outline outline-2 outline-offset-2 outline-accent}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}}
+@layer components{.icon{@apply flex h-9 items-center rounded-full border border-line px-3 transition hover:bg-card}
+.no-bar{scrollbar-width:none}.no-bar::-webkit-scrollbar{display:none}}

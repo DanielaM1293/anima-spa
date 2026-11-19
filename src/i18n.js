@@ -1,0 +1,43 @@
+export const T={
+es:{nav:['Rituales','Tu ritual','Resultados','Reservar','Opiniones'],hi:'Hola',eyebrow:'Spa de bienestar en Bogotá',h1:['Un respiro','hecho a tu medida'],
+sub:'Masajes, faciales y rituales con cacao y plantas andinas. Elige, reserva en minutos y paga seguro.',ask:'¿Cómo te llamas?',cta:'Reservar',cta2:'Encuentra tu ritual',
+next:'Próximo cupo hoy',rate:'12.400 reservas · 4,9',
+svcT:'Rituales para cada necesidad',all:'Todos',cats:{body:'Cuerpo',face:'Rostro',ritual:'Rituales'},min:'min',add:'Agregar',added:'Agregado',
+qT:'Cuéntanos y elegimos por ti',q:['¿Qué necesitas hoy?','¿Cuánto tiempo tienes?'],
+o:[[['relax','Soltar la mente'],['pain','Aliviar tensión'],['glow','Lucir descansada/o'],['energy','Recargar energía']],[[60,'Una hora'],[90,'Hora y media'],[120,'Todo el tiempo']]],
+res:'Tu ritual ideal',retry:'Repetir test',
+bT:'Reserva tu momento',steps:['Resumen','Fecha','Tus datos','Pago'],empty:'Aún no eliges un ritual. Agrega uno arriba para empezar.',
+promo:'Código promocional (prueba ANIMA10)',apply:'Aplicar',invalid:'Código no válido',okp:'10% aplicado',aroma:'Añadir aromaterapia',
+sub2:'Subtotal',disc:'Descuento',total:'Total',date:'Día',time:'Hora',pro:'Terapeuta',any:'Cualquiera',back:'Atrás',cont:'Continuar',
+name:'Nombre completo',email:'Correo',phone:'Celular',notes:'Notas o alergias (opcional)',card:'Número de tarjeta',holder:'Titular',exp:'Vence (MM/AA)',cvc:'CVC',
+pay:'Pagar',paying:'Procesando pago…',secure:'Pago cifrado. Prueba: 4242 4242 4242 4242',err:'Revisa los campos marcados',
+done:'¡Reserva confirmada!',code:'Código de reserva',ics:'Agregar a mi calendario',again:'Nueva reserva',
+mine:'Mis reservas',mineT:'Mis reservas y puntos',noB:'Aún no tienes reservas. Cuando pagues una, aparecerá aquí.',cancel:'Cancelar reserva',cancelled:'Cancelada',pts:'puntos',toNext:'para el siguiente nivel',tiers:['Semilla','Brote','Orquídea'],earn:'Ganas 1 punto por cada $1.000. 500 puntos = $50.000 de descuento.',usePts:'Usar 500 puntos (−$50.000)',galT:'Resultados que se sienten',galD:'Desliza para comparar el antes y el después de nuestro facial luminoso.',gal:['Antes','Después'],
+ tT:'Lo que dicen quienes ya vinieron',foot:'© 2026 Ánima Spa · Chapinero, Bogotá'},
+en:{nav:['Rituals','Your ritual','Results','Book','Reviews'],hi:'Hello',eyebrow:'Wellness spa in Bogotá',h1:['A pause','made for you'],
+sub:'Massages, facials and rituals with cacao and Andean botanicals. Pick, book in minutes and pay securely.',ask:'What is your name?',cta:'Book',cta2:'Find your ritual',
+next:'Next slot today',rate:'12,400 bookings · 4.9',
+svcT:'Rituals for every need',all:'All',cats:{body:'Body',face:'Face',ritual:'Rituals'},min:'min',add:'Add',added:'Added',
+qT:'Tell us and we will choose for you',q:['What do you need today?','How much time do you have?'],
+o:[[['relax','Quiet my mind'],['pain','Ease tension'],['glow','Look rested'],['energy','Recharge']],[[60,'One hour'],[90,'An hour and a half'],[120,'All the time']]],
+res:'Your ideal ritual',retry:'Retake quiz',
+bT:'Book your moment',steps:['Summary','Date','Your details','Payment'],empty:'You have not picked a ritual yet. Add one above to begin.',
+promo:'Promo code (try ANIMA10)',apply:'Apply',invalid:'Invalid code',okp:'10% applied',aroma:'Add aromatherapy',
+sub2:'Subtotal',disc:'Discount',total:'Total',date:'Day',time:'Time',pro:'Therapist',any:'Anyone',back:'Back',cont:'Continue',
+name:'Full name',email:'Email',phone:'Mobile',notes:'Notes or allergies (optional)',card:'Card number',holder:'Cardholder',exp:'Expiry (MM/YY)',cvc:'CVC',
+pay:'Pay',paying:'Processing payment…',secure:'Encrypted payment. Test: 4242 4242 4242 4242',err:'Check the highlighted fields',
+done:'Booking confirmed!',code:'Booking code',ics:'Add to my calendar',again:'New booking',
+mine:'My bookings',mineT:'My bookings and points',noB:'No bookings yet. Once you pay for one, it will appear here.',cancel:'Cancel booking',cancelled:'Cancelled',pts:'points',toNext:'to next tier',tiers:['Seed','Sprout','Orchid'],earn:'Earn 1 point per COP 1,000. 500 points = COP 50,000 off.',usePts:'Use 500 points (−COP 50,000)',galT:'Results you can feel',galD:'Slide to compare before and after our orchid radiance facial.',gal:['Before','After'],
+ tT:'What past guests say',foot:'© 2026 Ánima Spa · Chapinero, Bogotá'}}
+export const SERVICES=[
+{id:1,img:'/images/s1.jpg',cat:'body',min:90,price:210000,goals:['relax','pain'],g:['#4c2f5e','#c07fa8'],n:{es:'Masaje de piedra volcánica',en:'Volcanic stone massage'},d:{es:'Piedras tibias y aceite de caléndula para soltar la espalda.',en:'Warm stones and calendula oil to release the back.'}},
+{id:2,img:'/images/s2.jpg',cat:'body',min:60,price:160000,goals:['pain'],g:['#2c4a47','#8fb8a6'],n:{es:'Descontracturante profundo',en:'Deep tissue release'},d:{es:'Presión firme en cuello, hombros y lumbar. Ideal tras largas jornadas.',en:'Firm pressure on neck, shoulders and lower back.'}},
+{id:3,img:'/images/s3.jpg',cat:'face',min:60,price:180000,goals:['glow'],g:['#8a3f66','#f0c4dc'],n:{es:'Facial luminosa de orquídea',en:'Orchid radiance facial'},d:{es:'Limpieza, exfoliación suave y mascarilla hidratante.',en:'Cleanse, gentle exfoliation and a hydrating mask.'}},
+{id:4,img:'/images/s4.jpg',cat:'ritual',min:75,price:190000,goals:['relax'],g:['#3a2a3a','#a67a8f'],n:{es:'Baño de cacao y panela',en:'Cacao and panela soak'},d:{es:'Inmersión tibia con cacao colombiano y exfoliación corporal.',en:'Warm soak with Colombian cacao and a body scrub.'}},
+{id:5,img:'/images/s5.jpg',cat:'ritual',min:120,price:290000,goals:['energy','relax'],g:['#1f4d44','#d9a6c8'],n:{es:'Ritual Andino de energía',en:'Andean energy ritual'},d:{es:'Vapor de hierbas, masaje de cuerpo completo y té de frailejón.',en:'Herbal steam, full-body massage and highland herbal tea.'}},
+{id:6,img:'/images/s6.jpg',cat:'face',min:80,price:140000,goals:['glow'],g:['#5b5f8f','#e6c9e8'],n:{es:'Manos y pies botánicos',en:'Botanical hands and feet'},d:{es:'Manicure, pedicure y masaje con mantequilla de karité.',en:'Manicure, pedicure and shea butter massage.'}}]
+export const PROS=[{id:'v',n:'Valentina',r:4.9},{id:'c',n:'Camilo',r:4.8},{id:'m',n:'Mariana',r:5}]
+export const TESTI=[
+{n:'Laura G.',es:'Salí flotando. El baño de cacao es otra cosa y reservar fue facilísimo.',en:'I walked out floating. The cacao soak is something else and booking was effortless.'},
+{n:'Andrés P.',es:'Valentina encontró cada nudo de mi espalda. Vuelvo cada mes.',en:'Valentina found every knot in my back. I come back monthly.'},
+{n:'Sofía R.',es:'Mi mamá y yo hicimos el ritual andino. Regalo perfecto.',en:'My mom and I did the Andean ritual. Perfect gift.'}]
